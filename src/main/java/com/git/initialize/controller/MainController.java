@@ -38,4 +38,10 @@ public class MainController {
 	public String addBookToLibrary() {
 		return "add-book";
 	}
+
+	@GetMapping("/git")
+	public String returnGitTemp() {
+		return "This is a git temp request";
+	}
+
 }
